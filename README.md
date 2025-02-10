@@ -3,6 +3,8 @@
 ## Brief Description
 This project implements a natural language processing pipeline for classifying text documents into predefined categories using machine learning. The main goal of this project is to showcase how word embeddings, specifically Word2Vec, can be used in combination with neural networks to classify news articles as either "real" or "fake." This project helps illustrate the process of text classification, feature extraction, and model evaluation.
 
+Originally written for a Natural Language Processing course. 
+
 ## Key techniques: 
 
 ### Word2Vec Embedding
