@@ -80,7 +80,7 @@ def main():
     print("The accuracy of the network using testing data on 100 hidden layers, and 10 nodes:", accuracyOfTesting2)
 
     print("\n NOTE: Model is significantly less accurate on 100 hidden layers and 10 nodes than 1 hidden layer with 100 nodes.")
-    print("    Likely an issue with underfitting, as the dataset is probably too small for so many layers...")
+    print("    Likely an issue with overfitting, as the model is too complex for the dataset size, leading to poor generalization on test data....")
 
 # Definition: Preprocess the data so it is suitable for passing to Word2Vec
 # Parameters: dataframe object
